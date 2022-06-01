@@ -5,5 +5,5 @@ test('show "Hello!" message', () => {
 });
 
 test('show "Good-bye!" message', () => {
-    expect(messages.sayGoodBye()).toBe('Good-bye');
+    expect(messages.sayGoodBye()).toBe('Good-bye!');
 });
